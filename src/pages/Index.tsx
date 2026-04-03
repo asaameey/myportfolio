@@ -216,6 +216,11 @@ const Index = () => {
                     <ExternalLink className="mr-2 h-4 w-4" /> GitHub
                   </a>
                 </Button>
+                <Button size="lg" variant="outline" asChild>
+                  <a href="https://www.linkedin.com/in/shuaib-abubakar-sani-652508336/" target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="mr-2 h-4 w-4" /> LinkedIn
+                  </a>
+                </Button>
               </div>
             </div>
           </div>
