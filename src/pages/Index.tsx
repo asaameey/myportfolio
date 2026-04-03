@@ -199,20 +199,21 @@ const Index = () => {
             <div className="rounded-xl border border-border bg-card p-8">
               <div className="mb-6 rounded-lg bg-background p-4 font-mono text-left text-sm text-muted-foreground">
                 <span className="text-primary">const</span> contact = {"{"}<br />
-                &nbsp;&nbsp;email: <span className="text-primary">"your.email@example.com"</span>,<br />
-                &nbsp;&nbsp;availability: <span className="text-primary">"Open to opportunities"</span>,<br />
-                &nbsp;&nbsp;response_time: <span className="text-primary">"&lt; 24 hours"</span><br />
+                &nbsp;&nbsp;name: <span className="text-primary">"Shuaib Abubakar Sani"</span>,<br />
+                &nbsp;&nbsp;email: <span className="text-primary">"asaameey@gmail.com"</span>,<br />
+                &nbsp;&nbsp;github: <span className="text-primary">"github.com/asaameey"</span>,<br />
+                &nbsp;&nbsp;availability: <span className="text-primary">"Open to opportunities"</span><br />
                 {"}"};
               </div>
               <div className="flex flex-col gap-3 sm:flex-row sm:justify-center">
                 <Button size="lg" asChild>
-                  <a href="mailto:your.email@example.com">
+                  <a href="mailto:asaameey@gmail.com">
                     <Mail className="mr-2 h-4 w-4" /> Send Email
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                    <ExternalLink className="mr-2 h-4 w-4" /> LinkedIn
+                  <a href="https://github.com/asaameey" target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="mr-2 h-4 w-4" /> GitHub
                   </a>
                 </Button>
               </div>
