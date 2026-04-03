@@ -206,7 +206,7 @@ const Index = () => {
               </div>
               <div className="flex flex-col gap-3 sm:flex-row sm:justify-center">
                 <Button size="lg" asChild>
-                  <a href="mailto:your.email@example.com">
+                  <a href="mailto:asaameey@gmail.com">
                     <Mail className="mr-2 h-4 w-4" /> Send Email
                   </a>
                 </Button>
