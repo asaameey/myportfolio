@@ -211,8 +211,8 @@ const Index = () => {
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                    <ExternalLink className="mr-2 h-4 w-4" /> LinkedIn
+                  <a href="https://github.com/asaameey" target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="mr-2 h-4 w-4" /> GitHub
                   </a>
                 </Button>
               </div>
